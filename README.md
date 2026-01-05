@@ -22,7 +22,7 @@ Every push triggers the workflow, runs tests, and deploys the project.
 ### 🌐 Live API Endpoint
 
 ```
-/api
+https://ci-cd-nodejs-5nxg46wd5-humams-projects-d4a22ad7.vercel.app/api
 ```
 
 This returns the message .
