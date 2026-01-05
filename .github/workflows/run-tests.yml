@@ -23,7 +23,7 @@ on:
           node-version: 20
       - run: npm install
       - name: deploy to vercel
-        run: npx vercel --token ${{ secrets.VERCEL_TOKEN}} --pord --confirm
+        run: npx vercel --token ${{ secrets.VERCEL_TOKEN}} --prod --confirm
         env:
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          vercel_PROJECT_ID: ${{ secrets.vercel_PROJECT_ID }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_USER_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
